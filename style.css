@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    min-height: 100vh;
+    font-size: 1.6rem;
+    background-color: rgb(255, 223, 223);
+    direction: rtl;
+}
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+span {
+    font-size: 2rem;
+    font-weight: 700;
+    color: hsl(202, 91%, 54%);
+}
